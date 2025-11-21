@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="../favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="color-scheme" content="dark light" />
+		
+		<link rel="modulepreload" href="../_app/immutable/entry/start.DtQRmmZl.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CJhHtHWh.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DZhw9-6Z.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BZDtRqjk.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.DuIEmTrA.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/lwtx7Kyg.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BEwVjXMF.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/0.D7i67ek9.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/3.a20D4aOs.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/C3gf4BN4.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/sy6UxQmZ.js">
+
+		<!-- duplication with svelte.dev/static/shared.css needed, else styles aren't applied during local dev -->
+		<link rel="stylesheet" href="/shared.css" />
+	</head>
+	<body>
+		<div style="display: contents"><!--[--><!--[--><!----><!----><link rel="stylesheet" href="/shared.css"><!----><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_1m2v82g = {
+						base: new URL("..", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("../_app/immutable/entry/start.DtQRmmZl.js"),
+						import("../_app/immutable/entry/app.DuIEmTrA.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 3],
+							data: [null,null],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+
+		<script>
+			const theme = new URL(window.location).searchParams.get('theme');
+
+			document.documentElement.classList.remove('light', 'dark');
+			document.documentElement.classList.add(theme || 'light');
+		</script>
+	</body>
+</html>
