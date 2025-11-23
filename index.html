@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="color-scheme" content="dark light" />
+		
+		<link rel="modulepreload" href="./_app/immutable/entry/start.DjZd7gL9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DaR9551a.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DZhw9-6Z.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BZDtRqjk.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.CqLYFO3x.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/lwtx7Kyg.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BEwVjXMF.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.D7i67ek9.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.D-lm3-9D.js">
+
+		<!-- duplication with svelte.dev/static/shared.css needed, else styles aren't applied during local dev -->
+		<link rel="stylesheet" href="/shared.css" />
+	</head>
+	<body>
+		<div style="display: contents"><!--[--><!--[--><!----><!----><link rel="stylesheet" href="/shared.css"> <h1>crosswords for emma</h1> <ul><!--[--><li><a href="/crossword/birthday">Happy birthday!</a></li><!--]--></ul><!----><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_yod4mo = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./_app/immutable/entry/start.DjZd7gL9.js"),
+						import("./_app/immutable/entry/app.CqLYFO3x.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data: [null,{"type":"data","data":{summaries:[{slug:"birthday",title:"Happy birthday!"}]},"uses":{}}],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+
+		<script>
+			const theme = new URL(window.location).searchParams.get('theme');
+
+			document.documentElement.classList.remove('light', 'dark');
+			document.documentElement.classList.add(theme || 'light');
+		</script>
+	</body>
+</html>
