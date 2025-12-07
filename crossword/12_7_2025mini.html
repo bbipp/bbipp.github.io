@@ -6,18 +6,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="color-scheme" content="dark light" />
 		
-		<link rel="modulepreload" href="../_app/immutable/entry/start.C0G-26Ix.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/CyFsKZik.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/CND4MD1f.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/LrC88QA7.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/app.eFdDLK0N.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/CNBCXOLZ.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/BM7X1xUA.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/CxZHFJ6H.js">
-		<link rel="modulepreload" href="../_app/immutable/nodes/0.BOVhfUqv.js">
-		<link rel="modulepreload" href="../_app/immutable/nodes/3.YTpKhgvD.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/DxGrenKC.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/nr2WHz7G.js">
+		<link rel="modulepreload" href="../app/immutable/entry/start.C0G-26Ix.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/CyFsKZik.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/CND4MD1f.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/LrC88QA7.js">
+		<link rel="modulepreload" href="../app/immutable/entry/app.eFdDLK0N.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/CNBCXOLZ.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/BM7X1xUA.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/CxZHFJ6H.js">
+		<link rel="modulepreload" href="../app/immutable/nodes/0.BOVhfUqv.js">
+		<link rel="modulepreload" href="../app/immutable/nodes/3.YTpKhgvD.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/DxGrenKC.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/nr2WHz7G.js">
 
 		<!-- duplication with svelte.dev/static/shared.css needed, else styles aren't applied during local dev -->
 		<link rel="stylesheet" href="/shared.css" />
@@ -34,8 +34,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("../_app/immutable/entry/start.C0G-26Ix.js"),
-						import("../_app/immutable/entry/app.eFdDLK0N.js")
+						import("../app/immutable/entry/start.C0G-26Ix.js"),
+						import("../app/immutable/entry/app.eFdDLK0N.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 3],
@@ -56,3 +56,4 @@
 		</script>
 	</body>
 </html>
+
