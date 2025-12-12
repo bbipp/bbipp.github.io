@@ -12,7 +12,24 @@
     overflow: auto;
     color: black;
     margin-left: 2px;
+    border-color: #125f08;
     caret-color: transparent;
+    border-radius: 5px;
+}
+
+.clueheader {
+    margin: 5px;
+    color: darkgreen;
+}
+
+.cluecont {
+    border-radius: 5px;
+    grid-column: 2;
+    background-color: rgb(193, 193, 193);
+    width: 500px;
+    height: 40vh;
+    border-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .clue-list-down,
