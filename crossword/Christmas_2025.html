@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="../favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="color-scheme" content="dark light" />
+		
+		<link rel="modulepreload" href="../app/immutable/entry/start.BUjOzafJ.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/CVtSE9Ml.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/DZhw9-6Z.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/BZDtRqjk.js">
+		<link rel="modulepreload" href="../app/immutable/entry/app.By0WA4nK.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/lwtx7Kyg.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/BEwVjXMF.js">
+		<link rel="modulepreload" href="../app/immutable/nodes/0.D7i67ek9.js">
+		<link rel="modulepreload" href="../app/immutable/nodes/3.pteaWkOI.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/C3gf4BN4.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/D0jzEOlV.js">
+
+		<!-- duplication with svelte.dev/static/shared.css needed, else styles aren't applied during local dev -->
+		<link rel="stylesheet" href="/shared.css" />
+	</head>
+	<body>
+		<div style="display: contents"><!--[--><!--[--><!----><!----><link rel="stylesheet" href="/shared.css"><!----><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_5eb5th = {
+						base: new URL("..", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("../app/immutable/entry/start.BUjOzafJ.js"),
+						import("../app/immutable/entry/app.By0WA4nK.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 3],
+							data: [null,null],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+
+		<script>
+			const theme = new URL(window.location).searchParams.get('theme');
+
+			document.documentElement.classList.remove('light', 'dark');
+			document.documentElement.classList.add(theme || 'light');
+		</script>
+	</body>
+</html>
